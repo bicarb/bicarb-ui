@@ -1,0 +1,49 @@
+/*
+ * Copyright (c) 2018 the original author or authors.
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * See LICENSE file in the root directory of this source tree.
+ */
+
+// topics
+export const ON_TOPICS_TAB_CHANGE = 'ON_TOPICS_TAB_CHANGE';
+export type ON_TOPICS_TAB_CHANGE = typeof ON_TOPICS_TAB_CHANGE;
+
+export const FETCH_TOPICS_REQUEST = 'FETCH_TOPICS_REQUEST';
+export type FETCH_TOPICS_REQUEST = typeof FETCH_TOPICS_REQUEST;
+
+export const FETCH_TOPICS_SUCCESS = 'FETCH_TOPICS_SUCCESS';
+export type FETCH_TOPICS_SUCCESS = typeof FETCH_TOPICS_SUCCESS;
+
+// topic
+export const FETCH_POSTS_REQUEST = 'FETCH_POSTS_REQUEST';
+export type FETCH_POSTS_REQUEST = typeof FETCH_POSTS_REQUEST;
+
+export const FETCH_POSTS_SUCCESS = 'FETCH_POSTS_SUCCESS';
+export type FETCH_POSTS_SUCCESS = typeof FETCH_POSTS_SUCCESS;
+
+export const CLEAR_POSTS = 'CLEAR_POSTS';
+export type CLEAR_POSTS = typeof CLEAR_POSTS;
+
+// user
+export const FETCH_USER_REQUEST = 'FETCH_USER_REQUEST';
+export type FETCH_USER_REQUEST = typeof FETCH_USER_REQUEST;
+
+export const FETCH_USER_SUCCESS = 'FETCH_USER_SUCCESS';
+export type FETCH_USER_SUCCESS = typeof FETCH_USER_SUCCESS;
+
+export const CLEAR_USER = 'CLEAR_USER';
+export type CLEAR_USER = typeof CLEAR_USER;
+
+// notification
+export const FETCH_NOTIFICATIONS_REQUEST = 'FETCH_NOTIFICATIONS_REQUEST';
+export type FETCH_NOTIFICATIONS_REQUEST = typeof FETCH_NOTIFICATIONS_REQUEST;
+
+export const FETCH_NOTIFICATIONS_SUCCESS = 'FETCH_NOTIFICATIONS_SUCCESS';
+export type FETCH_NOTIFICATIONS_SUCCESS = typeof FETCH_NOTIFICATIONS_SUCCESS;
+
+// search
+export const FETCH_SEARCH_RESULT_REQUEST = 'FETCH_SEARCH_RESULT_REQUEST';
+export type FETCH_SEARCH_RESULT_REQUEST = typeof FETCH_SEARCH_RESULT_REQUEST;
+
+export const FETCH_SEARCH_RESULT_SUCCESS = 'FETCH_SEARCH_RESULT_SUCCESS';
+export type FETCH_SEARCH_RESULT_SUCCESS = typeof FETCH_SEARCH_RESULT_SUCCESS;
