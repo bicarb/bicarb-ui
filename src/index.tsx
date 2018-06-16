@@ -13,7 +13,6 @@ import { Provider } from 'react-redux';
 import App from './components/App';
 import G from './global';
 import { default as T, loadTranslation } from './i18n';
-import registerServiceWorker from './registerServiceWorker';
 import store from './strore';
 
 const theme = createMuiTheme();
@@ -30,4 +29,3 @@ loadTranslation().then(value => {
     document.getElementById('root') as HTMLElement
   );
 }).then(() => (window as any).G = G);
-registerServiceWorker();
