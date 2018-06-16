@@ -21,7 +21,9 @@ export function postLogin(usernameOrEmail: string, password: string, rememberMe?
     headers: {
       'Content-Type': APPLICATION_FORM_URLENCODED,
     },
-    body: `username=${usernameOrEmail}&password=${password}&remember-me=${!!rememberMe}`
+    body: `username=${encodeURIComponent(usernameOrEmail)}`
+        + `&password=${encodeURIComponent(password)}`
+        + `&remember-me=${!!rememberMe}`
   });
 }
 
